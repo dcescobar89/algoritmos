@@ -2,3 +2,33 @@ def fibonacci(n):
   if n < 2:
 		return n
 	return f(n-2) + f(n-1)
+
+
+
+indice
+def imc():
+	print "ingrese su masa:"
+	m = input()
+	print "ingrese su estatura:"
+	
+	e = input()
+	print "su indice de masa corporal es:"
+	i = ((m)/(e)**2)
+	print i
+	if i < 16:
+		print "delgadez severa"
+	elif i >= 16 or i <= 16.99:
+		print "delgadenz moderada"
+	elif i >= 17 or i <= 18.49:
+		print "Delgadez no muy pronunciada"
+	elif i >= 18.5 or i <= 24.99:
+		print "NOrmal"
+	elif i >= 25 or i <= 29.99:
+		print "Pre-obeso"
+	elif i >= 30 or i <= 34.99:
+		print "Obeso tipo 1"
+	elif i >= 35 or i <= 39.99:
+		print "Obeso tipo 2"
+	elif i >= 40:
+		print "Obeso tipo 3"
+
